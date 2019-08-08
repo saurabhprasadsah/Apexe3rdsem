@@ -1,3 +1,7 @@
+///ARRAY USING STACK IMPLEMENTATION
+
+
+
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
