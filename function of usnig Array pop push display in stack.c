@@ -1,3 +1,7 @@
+///Array using implementation
+//push,pop,display!!!!!!!!!!!!!!!!!
+
+
 void push(){
 	if(top>=size)
 	{
