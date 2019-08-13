@@ -1,6 +1,6 @@
 # Apexe3rdsem Data structure😍😍😉😎😎😜
-
-# Data and file structure
+# cool🙌
+# Data a💥nd file structure
 
 # LINKED LIST
 .SINGLY
