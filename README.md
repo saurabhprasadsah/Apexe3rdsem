@@ -38,3 +38,24 @@
 
 # Memory Representation
 .B-Tree
+
+# Graph
+.types of graph
+.memory representation of graph
+.travesing of graph
+.minimum spannig Tree
+
+# searching
+.sequential search
+.Binary search
+
+# sorting
+.Bubble sort
+.Heap sort
+.quick sort
+.insertation sort
+.merge sort
+
+
+
+
