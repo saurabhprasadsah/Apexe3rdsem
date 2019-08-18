@@ -25,11 +25,12 @@
 .BY USING LINKED LIST
 .LINEAR
 
-# Tree
+# Tree 
 .Binary tree
 .complete Binary tree
 .Bill search 
 .Threaded Bill search
+
 # Trauersly of Tree
 .Inorder
 .preorder
