@@ -1,17 +1,17 @@
-void insert-node(int n)
+void insert_node(int n)
 {
-	struct list *node, *?temp;
-	if(start==Null)
+	struct list *node, *temp;
+	if(start==NULL)
 	{
 		node=((struct list *)malloc (size of (struct list)) );
 		node->info=n;
 		node->next=NULL;
-		start Node;
+		start node;
 	}
 	else{
-		Node=start;
-		while(Node->next! =NULL)
-		{Node=Node->next;
+		node=start;
+		while(node->next! =NULL)
+		{node=node->next;
 		}
 		temp=((struct list*)malloc(size of(struct list)));
 		temp->info=n;
