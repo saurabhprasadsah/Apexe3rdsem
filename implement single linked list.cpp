@@ -9,8 +9,8 @@ struct list{
 	
 };
 struct list *start = Null;
-void insert-node (int n);
-void delete-node();
+void insert_node (int n);
+void delete_node();
 void display();
 
 
@@ -31,11 +31,11 @@ main(){
 		{
 			case 1:printf("enter thr value");
 		           scanf("%d",&n);
-		           insert-node(n);
+		           insert_node(n);
 		           break;
 		           
 		           
-	        case 2: delete-node();
+	        case 2: delete_node();
 	                break;
 	                
 	        case 3:display();
