@@ -8,7 +8,7 @@ struct list{
 	struct list *next;
 	
 };
-struct list *start = Null;
+struct list *start = NULL;
 void insert_node (int n);
 void delete_node();
 void display();
@@ -29,18 +29,22 @@ main(){
 		
 		switch(choice)
 		{
-			case 1:printf("enter thr value");
+			case 1:
+			   printf("enter thr value");
 		           scanf("%d",&n);
 		           insert_node(n);
 		           break;
 		           
 		           
-	        case 2: delete_node();
+	        case 2:
+		      delete_node();
 	                break;
 	                
-	        case 3:display();
-			       break;
-			case 4:exit(0);
+	        case 3:
+		      display();
+		       break;	
+		case 4:
+		    exit(0);
 				           
 		 } 
 	}
