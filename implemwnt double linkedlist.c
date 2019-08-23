@@ -8,9 +8,9 @@ struct list{
 	struct list *next;	
 };
 
-struct list *start = Null;
-void insert-node (int n);
-void delete-node();
+struct list *start = NILL;
+void insert_node (int n);
+void delete_node();
 void display();
 
 
@@ -31,11 +31,11 @@ main(){
 		{
 			case 1:printf("enter thr value");
 		           scanf("%d",&n);
-		           insert-node(n);
+		           insert_node(n);
 		           break;
 		           
 		           
-	        case 2: delete-node();
+	        case 2: delete_node();
 	                break;
 	                
 	        case 3:display();
@@ -47,21 +47,21 @@ main(){
 }
 
 
-void insert-node(int n)
+void insert_node(int n)
 {
-	struct list *node, *?temp;
+	struct list *node, *temp;
 	if(start==Null)
 	{
 		node=((struct list *)malloc (size of (struct list)) );
 		node->info=n;
 		node->next=NULL;
-		node->prev =NUll;
+		node->prev =NULL;
 		start Node;
 	}
 	else{
-		Node=start;
-		while(Node->next! =NULL)
-		{Node=Node->next;
+		node=start;
+		while(node->next! =NULL)
+		{node=node->next;
 		}
 		temp=((struct list*)malloc(size of(struct list)));
 		temp->info=n;
