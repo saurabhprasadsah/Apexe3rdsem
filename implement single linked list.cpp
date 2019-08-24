@@ -22,7 +22,7 @@ main(){
 		printf("\n main menu");
 		printf("\n insert node");
 		printf("\n delete node");
-		printf("\n display node value");
+		printf("\n display node ");
 		printf(" \n 4.exit");
 		printf("enter your choice (1-4);");
 		scanf("%d",&choice);
@@ -30,7 +30,7 @@ main(){
 		switch(choice)
 		{
 			case 1:
-			   printf("enter thr value");
+			   printf("enter the value");
 		           scanf("%d",&n);
 		           insert_node(n);
 		           break;
