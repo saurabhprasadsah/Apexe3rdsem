@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<stdlib.h>
 # define SIZE 5
-int queue[size],front=0,rear=0;
+int queue[SIZE],front=0,rear=0;
 void enqueue();
 void dequeue();
 void display();
@@ -42,7 +42,7 @@ main()
 
 void enqueue()
 {
-	if(rear<size)
+	if(rear<SIZE)
 	{ 
 	printf("enter the value");
 	scanf("%d",& queue[rear]);
