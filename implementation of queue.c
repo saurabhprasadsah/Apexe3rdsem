@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
-# define size 5
+# define SIZE 5
 int queue[size],front=0,rear=0;
 void enqueue();
 void dequeue();
