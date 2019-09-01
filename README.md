@@ -25,27 +25,27 @@
 .BY USING LINKED LIST
 .LINEAR
 
-# Tree 
+# Tree 🌳
 .Binary tree
 .complete Binary tree
 .Bill search 
 .Threaded Bill search
 
-# Trauersly of Tree
+# Trauersly of Tree 🌳
 .Inorder
 .preorder
 .post order
 
-# Memory Representation
+# Memory Representation 
 .B-Tree
 
-# Graph
+# Graph 📈
 .types of graph
 .memory representation of graph
 .travesing of graph
 .minimum spannig Tree
 
-# searching
+# searching 🔍
 .sequential search
 .Binary search
 
