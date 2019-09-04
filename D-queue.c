@@ -115,4 +115,3 @@ void Right_display()
 		printf("\n%d",a[i]);
 	}
   }
-
