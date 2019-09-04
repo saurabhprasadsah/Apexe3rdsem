@@ -28,28 +28,28 @@ main(){
 		switch (choice)
 		
 		{
-			case 1:
+			 case 1:
 				insert_rear();
 				break;
-		    case 2:
+		         case 2:
 			      insert_front();
 			      break;
-		    case 3:
+		         case 3:
 			      delete_front();
 				  break;
 				  
-		    case 4:
+		         case 4:
 			     delete_rear();
 				 break;
 				 
 				 
-		    case 5:
+		        case 5:
 			     display();
 				 break;
 				 
 				 
 				 
-	        case 6:
+	                case 6:
 			     exit(0);			 		 		  		  		
 		}
 	}
@@ -58,7 +58,7 @@ main(){
 
 
  insert_front()
-{
+   {
 	int n;
 	struct queue *node;
 	printf(" enter the node value:");
@@ -76,9 +76,9 @@ main(){
 		node->next=front;
 		front=node;
 	}
-}///*end of insert front///
- insert_rear()
-{
+     }///*end of insert front///
+insert_rear()
+  {
 	int n;
 	struct queue *node;
 	printf(" enter the node value:");
@@ -96,11 +96,11 @@ main(){
 	    rear->next=node;
 	    rear=node;
 	}
-}///*end of insert rear///
+   }///*end of insert rear///
 
 
  delete_front()
-{
+   {
 	struct queue *node;
 	node=front;
 	if(node==NULL)
@@ -118,10 +118,10 @@ main(){
 	free(node);	
 	}
 
-}// end of delete_front()*//
+     }// end of delete_front()*//
 
  delete_rear()
-{
+  {
 	struct queue *node;
 	node=front;
 	if(node==NULL)
@@ -145,12 +145,10 @@ main(){
 		free(node);
 	}
 	
-}// end of rear///
+       }// end of rear///
 
-
-
-display()
-{
+void display()
+  {
 	struct queue *node;
 	node=front;
 	while(node!=NULL)
@@ -160,6 +158,6 @@ display()
 	}
 	
 	
-}
+   }
 // end of display///
 
