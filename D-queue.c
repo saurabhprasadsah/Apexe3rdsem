@@ -35,11 +35,11 @@ main()
 			default: puts("Invalid choice ! Please enter the valid choice");
 		}
 	}
-	getch();
+	
 }
 
-Left_insert()
-{
+ void Left_insert()
+   {
 	r1++;
 	if(r1==r2)
 	{
@@ -51,10 +51,10 @@ Left_insert()
 		puts("Enter the new element from left side");
 		scanf("%d",&a[r1]);
 	}
-}
+   }
 
-Right_insert()
-{
+   void Right_insert()
+     {
 	r2--;
 	if(r2==r1)
 	{
@@ -68,8 +68,8 @@ Right_insert()
 	}
 }
 
-Left_del()
-{
+ void Left_del()
+   {
 	if(f1>r1)
 	{
 		puts("Queue is empty form Left side");
@@ -80,10 +80,10 @@ Left_del()
 		a[f1]=0;
 		f1++;
 	}
-}
+   }
 
-Right_del()
-{
+ void Right_del()
+  {
 	if(f2>r2)
 	{
 		puts("Queue is empty from right side");
@@ -94,25 +94,25 @@ Right_del()
 		a[f2]=0;
 		f2--;
 	}
-}
+  }
 
-Left_display()
-{
+ void Left_display()
+   {
 	int i;
 	puts("The elements of queue from left side");
 	for(i=f1;i<=r1;i++)
 	{
 		printf("\n%d",a[i]);
 	}
-}
+   }
 
-Right_display()
-{
+void Right_display()
+  {
 	int i;
 	puts("The elements of queue from Right side");
 	for(i=f2;i>=r2;i--)
 	{
 		printf("\n%d",a[i]);
 	}
-}
+  }
 
