@@ -1,7 +1,4 @@
 ///ARRAY USING STACK IMPLEMENTATION
-
-
-
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
@@ -38,5 +35,11 @@ main(){
 		
 		
 		
-			}
+  }
 }
+
+
+// end of main()//
+// end of push()//
+//end of pop()//
+//end of display()//
