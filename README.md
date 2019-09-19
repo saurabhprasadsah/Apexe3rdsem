@@ -2,7 +2,7 @@
 # cool🙌
 # Data a💥nd file structure
 
-# LINKED LIST
+# LINKED LIST📗📗📗
 .SINGLY
 .DOUBLY
 .CIRCULAR
